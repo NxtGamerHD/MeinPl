@@ -6,7 +6,7 @@ main: youtube\Main
 
 commands:
   yt:
-    description: "§7YoutubeInfo"
+    description: "§4YoutubeInfo"
     usage: "/yt"
     permission: "yt.info"
   discord:
@@ -22,4 +22,4 @@ commands:
 permissions:
   yt.info:
     default: op
-    description: "Erlaubt es dem Spieler das YouTube Setup durchzuführen!"
+    description: "Erlaubt es dem Spieler das YouTube Setup durchzuführen!!!"
