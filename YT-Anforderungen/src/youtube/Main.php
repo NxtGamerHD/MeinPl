@@ -103,10 +103,10 @@ class Main extends PluginBase implements Listener{
         break;
       case "author":
         if($sender instanceof Player){
-          $sender->sendMessage($this->prefix . " §l§eDas Plugin wurde von §l§cV3rsucht§r §l§WasIstMarcel§r §l§egemacht!");
+          $sender->sendMessage($this->prefix . " §l§eDas Plugin wurde von §l§cCrow Balde Erstellt!");
           $sender->sendPopup($this->prefix . " §l§eDas Plugin wurde von §l§cCrow Balde Erstellt!");
           $sender->addTitle("§8(§l§eAuthor§r§8)", "§l§cCrow Balde");
-          $sender->sendPopup($this->prefix . " §8(§l§eErreichbar§r§8) §l§cSchreib mich auf YT An mut einen Kommentar");
+          $sender->sendPopup($this->prefix . " §8(§l§eErreichbar§r§8) §l§cSchreib mich auf YT An mit einen Kommentar");
           $sender->sendMessage($this->prefix . " §l§eDiscord : https://discord.gg/fV93frR");
         }else{
           $sender->sendMessage($this->prefix . " §l§eDas funktioniert nur InGame."); /*Für Nicht in der Console!*/
@@ -129,7 +129,7 @@ class Main extends PluginBase implements Listener{
       }
     });
     $form->setTitle($this->getConfig()->get("Title"));
-    $form->setContent("\n Man Braucht " . $this->getConfig()->get("Abonnenten") . " Abonnenten \n \n \n" . $this->getConfig()->get("UnterText"));
+    $form->setContent("\n Man Braucht " . $this->getConfig()->get("200 Abonnenten") . " Abonnenten \n \n \n" . $this->getConfig()->get("UnterText"));
     $form->addButton($this->getConfig()->get("Button"));
     $form->sendToPlayer($sender);
     return $form;
