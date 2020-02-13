@@ -104,10 +104,10 @@ class Main extends PluginBase implements Listener{
       case "author":
         if($sender instanceof Player){
           $sender->sendMessage($this->prefix . " §l§eDas Plugin wurde von §l§cV3rsucht§r §l§WasIstMarcel§r §l§egemacht!");
-          $sender->sendPopup($this->prefix . " §l§eDas Plugin wurde von §l§cV3rsucht §l§egemacht!");
-          $sender->addTitle("§8(§l§eAuthor§r§8)", "§l§cV3rsucht§r und §l§cWasIstMarcel");
-          $sender->sendPopup($this->prefix . " §8(§l§eErreichbar§r§8) §l§cV3rsucht | Kai#0229 und WasIstMarcel#2002");
-          $sender->sendMessage($this->prefix . " §l§eIn Discord unter: V3rsucht | Kai#0229 und WasIstMarcel#2002");
+          $sender->sendPopup($this->prefix . " §l§eDas Plugin wurde von §l§cCrow Balde Erstellt!");
+          $sender->addTitle("§8(§l§eAuthor§r§8)", "§l§cCrow Balde");
+          $sender->sendPopup($this->prefix . " §8(§l§eErreichbar§r§8) §l§cSchreib mich auf YT An mut einen Kommentar");
+          $sender->sendMessage($this->prefix . " §l§eDiscord : https://discord.gg/fV93frR");
         }else{
           $sender->sendMessage($this->prefix . " §l§eDas funktioniert nur InGame."); /*Für Nicht in der Console!*/
         }
